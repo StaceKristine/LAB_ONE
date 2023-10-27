@@ -1,0 +1,107 @@
+body {
+    background-color: #E0E0E0; /* A darker gray color */
+    font-family: "Comic Sans MS", cursive, sans-serif; /* A fun font */
+  }
+  
+  /* Select the h1 element and apply some styles */
+  h1 {
+    color: lime; /* A bright green color */
+    text-align: center; /* Center the heading */
+    font-size: 48px; /* A bigger font size */
+    margin-top: 20px; /* Add some space above the heading */
+    margin-bottom: 10px; /* Add some space below the heading */
+    animation: rainbow 5s infinite; /* Add a rainbow animation to the heading */
+  }
+  
+  /* Define the rainbow animation */
+  @keyframes rainbow {
+    0% { color: red; }
+    17% { color: orange; }
+    34% { color: yellow; }
+    51% { color: green; }
+    68% { color: blue; }
+    85% { color: indigo; }
+    100% { color: violet; }
+  }
+  
+  /* Select the table element and apply some styles */
+  table {
+    border-collapse: collapse; /* Remove the gaps between the cells */
+    width: 80%; /* Set the width of the table */
+    margin: 0 auto; /* Center the table horizontally */
+  }
+  
+  /* Select the th and td elements and apply some styles */
+  th, td {
+    border: 2px dashed purple; /* Add a dashed purple border around each cell */
+    padding: 10px; /* Add some space inside each cell */
+  }
+  
+  /* Select the image element and apply some styles */
+  img {
+    width: 100px; /* Set the width of the image */
+    height: auto; /* Adjust the height of the image proportionally */
+  }
+  
+  /* Select the elements with id box-one and box-two and apply some styles */
+  #box-one, #box-two {
+    width: 40%; /* Set the width of the boxes */
+    margin: 10px auto; /* Add some space around and center the boxes horizontally */
+  }
+  
+  /* Select the element with id box-one and apply some styles */
+  #box-one {
+    background-image: url("https://i.imgur.com/4ZpG9Zy.png"); /* Add a background image to the box */
+  }
+  
+  /* Select the element with id box-two and apply some styles */
+  #box-two {
+    background-color: pink; /* A light pink color for the box */
+  }
+  /* This is the CSS code for the buttons */
+
+/* Select the button elements and apply some styles */
+button {
+    display: inline-block; /* Enable the ability to add width and height */
+    width: 100px; /* Set the width of the buttons */
+    height: 40px; /* Set the height of the buttons */
+    margin: 10px; /* Add some space around the buttons */
+    border: none; /* Remove the default border */
+    border-radius: 10px; /* Add rounded corners to the buttons */
+    font-family: Arial, sans-serif; /* A common font */
+    font-size: 16px; /* A medium font size */
+    color: white; /* A white text color */
+    cursor: pointer; /* Change the cursor to a hand when hovering */
+  }
+  
+  /* Select the button with onclick="setColorPreference('red')" and apply some styles */
+  button[onclick="setColorPreference('red')"] {
+    background-color: red; /* A red background color */
+  }
+  
+  /* Select the button with onclick="setColorPreference('green')" and apply some styles */
+  button[onclick="setColorPreference('green')"] {
+    background-color: green; /* A green background color */
+  }
+  
+  /* Select the button with onclick="setColorPreference('blue')" and apply some styles */
+  button[onclick="setColorPreference('blue')"] {
+    background-color: blue; /* A blue background color */
+  }
+  
+  /* Select the button with onclick="removeCount()" and apply some styles */
+  button[onclick="removeCount()"] {
+    background-color: orange; /* An orange background color */
+  }
+  
+  /* Select the button with onclick="clearAll()" and apply some styles */
+  button[onclick="clearAll()"] {
+    background-color: purple; /* A purple background color */
+  }
+  
+  /* Add a hover effect to the buttons */
+  button:hover {
+    transform: scale(1.1); /* Make the buttons slightly bigger when hovering */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Add a shadow effect to the buttons when hovering */
+  }
+
